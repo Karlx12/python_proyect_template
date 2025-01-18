@@ -1,6 +1,6 @@
-# Hello World Template
+# Python Project Template
 
-This is a simple Hello World template for a Python project.
+This is a template for creating Python projects quickly with a virtual environment and dependencies setup.
 
 ## Getting Started
 
@@ -21,11 +21,33 @@ Follow these instructions to get a copy of the project up and running on your lo
   cd python_proyect_template
   ```
 
-### Running the Hello World Script
+### Setting Up the Project
 
-To run the Hello World script, execute the following command:
+To set up the project, you can use the provided scripts to create a virtual environment and install dependencies.
+
+#### Using `start.sh` (Linux/MacOS)
+
+1. Make the script executable:
+  ```sh
+  chmod +x start.sh
+  ```
+2. Run the script:
+  ```sh
+  ./start.sh
+  ```
+
+#### Using `start.bat` (Windows)
+
+1. Run the script:
+  ```sh
+  start.bat
+  ```
+
+### Running the Main Script
+
+To run the main script, execute the following command:
 ```sh
-python hello_world.py
+python main.py
 ```
 
 ### Expected Output
